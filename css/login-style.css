@@ -1,0 +1,102 @@
+body {
+    font-family: 'Noto Sans', Helvetica, sans-serif !important;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    max-width: 300px;
+}
+
+.container {
+    padding: 1em;
+}
+
+h3 {
+    padding-top: 0.5em;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+label {
+    margin-bottom: 0;
+}
+
+input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.btn {
+    margin-bottom: 14px;
+}
+
+#btnRow {
+    margin-top: 6px;
+    margin-bottom: 0;
+}
+
+.col-sm-4 {
+    padding: 1vw;
+}
+
+#formCol {
+    background-color: #dfdfdf;
+    border: 0.1vw solid #dfdfdf;
+    border-radius: 0.4vw;
+}
+
+.material-icons {
+    font-size: 18px !important;
+    position: relative;
+    top: 4px;
+}
+
+#wrongInput {
+    color: red;
+    display: none;
+    margin-bottom: 0.5em;
+    text-align: center !important;
+}
+
+#idTaken {
+    color: red;
+    display: none;
+    margin-bottom: 0.5em;
+}
+
+#signupLink {
+    text-align: center;
+    color: rgb(100, 110, 126);
+    margin-bottom: 0.75em;
+}
+
+.material .material-icons {
+    display: none;
+}
+
+.material.material-off .material-icons:last-of-type {
+    display: inline;
+}
+
+.material:not(.material-off) .material-icons:first-of-type {
+    display: inline;
+}
+
+#showPass.active {
+    display: none;
+}
+
+#hidePass {
+    display: none;
+}
+
+#hidePass.active {
+    display: inline;
+}

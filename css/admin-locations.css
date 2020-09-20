@@ -1,0 +1,117 @@
+body {
+    will-change: auto !important;
+}
+
+.row {
+    padding-bottom: 2vh;
+}
+
+#map {
+    position: relative;
+    /* padding-right: 5vw;
+    padding-left: 5vw; */
+}
+
+#invalid-form {
+    color: red;
+    display: none;
+    padding-top: 2.5vh;
+}
+
+#invalid-form p {
+    margin-bottom: 0;
+}
+ 
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+
+    main {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    #map {
+        height: 60vh;
+        width: 80vw;
+    }
+
+    #map.active {
+        width: 70vw;
+    }
+
+    main.active #refine-opts {
+        width: 80vw;
+        max-width: 80vw ;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    #map {
+        margin-right: 0;
+        margin-left: 0;
+        height: 60vh;
+        width: 75vw !important;
+    }
+
+    #map.active {
+        margin-right: 0;
+        width: 85vw !important;
+    }
+
+} 
+
+.map-active {
+	/* so that clicks go through to the map! */
+	pointer-events: none;
+}
+
+#endYear {
+    visibility: hidden;
+}
+
+.yearLabels {
+    visibility: hidden;
+}
+
+#endMonth {
+    visibility: hidden;
+}
+
+.monthLabels {
+    visibility: hidden;
+}
+
+#endDow {
+    visibility: hidden;
+}
+
+.dowLabels {
+    visibility: hidden;
+}
+
+#endHour {
+    visibility: hidden;
+}
+
+.hourLabels {
+    visibility: hidden;
+}
+
+.labelCustom {
+    margin-top: 2.2rem;
+}
+
+.checkCustom {
+    margin-top: 2.5rem;
+}
+
+#rogueRow {
+    padding-left: 1rem !important;
+    padding-top: 1rem !important;
+}

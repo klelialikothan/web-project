@@ -1,0 +1,165 @@
+body {
+    will-change: auto !important;
+}
+
+.row {
+    padding-bottom: 2vh;
+}
+
+#map {
+    position: relative;
+    padding-right: 5vw;
+    padding-left: 5vw;
+}
+
+.charts {
+    display: none;
+    padding-top: 2.5vh;
+}
+
+.google-visualization-table-table {
+    text-align: center !important;
+}
+
+.google-visualization-table-td {
+    text-align: center !important;
+}
+
+#activity-chart {
+    width: 70vw;
+    height: 60vh;
+}
+
+#hour-table-div {
+    width: 40vw;
+    height: 30vh;
+}
+
+#dow-table-div {
+    width: 40vw;
+    height: 30vh;
+}
+
+#invalid-form {
+    color: red;
+    display: none;
+    padding-top: 2.5vh;
+}
+
+#invalid-form p {
+    margin-bottom: 0;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    #map {
+        height: 60vh;
+        width: 90vw;
+    }
+
+    #btnRow .col-sm-3 {
+        padding-top: 1vh !important;
+        padding-bottom: 1vh !important;
+    }
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    #map {
+        height: 60vh;
+        width: 90vw;
+    }
+
+    #btnRow .col-sm-3 {
+        padding-top: 1vh !important;
+        padding-bottom: 1vh !important;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    #map {
+        height: 60vh;
+        width: 90vw;
+    }
+
+    #btnRow .col-sm-3 {
+        padding-top: 1vh !important;
+        padding-bottom: 1vh !important;
+    }
+    
+}
+ 
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    #map {
+        height: 60vh;
+        width: 80vw;
+    }
+
+    #map.active {
+        width: 70vw;
+    }
+
+    main.active #refine-opts {
+        margin-right: 0;
+        width: 80vw;
+        max-width: 80vw ;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    #map {
+        height: 60vh;
+        width: 75vw !important;
+    }
+
+    #map.active {
+        width: 80vw !important;
+    }
+
+} 
+
+.map-active {
+	/* so that clicks go through to the map! */
+	pointer-events: none;
+}
+
+#endYear {
+    visibility: hidden;
+}
+
+.yearLabels {
+    visibility: hidden;
+}
+
+#endMonth {
+    visibility: hidden;
+}
+
+.monthLabels {
+    visibility: hidden;
+}
+
+.labelCustom {
+    margin-top: 2.2rem;
+}
+
+.checkCustom {
+    margin-top: 2.5rem;
+}
+
+/* #btnRow {
+    padding-top: 1rem !important;
+} */

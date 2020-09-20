@@ -1,0 +1,56 @@
+#page-header {
+    font-size: 1.5em;
+}
+
+.form-text {
+    text-align: justify !important;
+}
+
+#takeout {
+    text-align: justify !important;
+}
+
+img {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+#instrBtn {
+    margin-bottom: 0.5em;
+}
+
+#showInstr {
+    display: inline;
+}
+
+#showInstr.active {
+    display: none;
+}
+
+#hideInstr {
+    display: none;
+}
+
+#hideInstr.active {
+    display: inline;
+}
+
+.card {
+    background: #fafafa;
+    border-color: #fafafaee;
+    border-radius: 2px;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    #page-header {
+        width: 70vw;
+    }
+
+    main.active {
+        width: 80vw !important;
+        max-width: 80vw !important;
+    }
+
+}
